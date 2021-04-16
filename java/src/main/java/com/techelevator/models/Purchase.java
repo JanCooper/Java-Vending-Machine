@@ -26,7 +26,7 @@ public class Purchase {
 	private VendingMachine vendingMachine;
 	private Logger log;
 	
-	public Purchase(Inventory inventory, VendingMachine vendingMachine, Logger log) {
+	public Purchase(Inventory inventory, VendingMachine vendingMachine) {
 		this.inventory = inventory;
 		this.vendingMachine = vendingMachine;
 		this.log = log;

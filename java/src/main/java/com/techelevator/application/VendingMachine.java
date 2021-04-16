@@ -45,7 +45,7 @@ public class VendingMachine
 	}
 	
 	private void setPurchase() {
-		purchase = new Purchase(inventory, this, log);
+		purchase = new Purchase(inventory, this);
 	}
 	
 	public void setBalance(BigDecimal input) {
